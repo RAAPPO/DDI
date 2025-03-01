@@ -1,0 +1,28 @@
+Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+=========================== RESTART: G:/drug/comp.py ===========================
+Combined Evaluation Metrics:
+                        accuracy  precision  recall  f1_score  roc_auc_score
+RandomForestClassifier  0.664387   0.664387     1.0  0.798356       0.499577
+SVC                     0.652859   0.652859     1.0  0.789975       0.494036
+LogisticRegression      0.666285   0.666285     1.0  0.799725       0.499572
+
+The best model based on F1-score is:
+LogisticRegression
+With the following metrics:
+accuracy         0.666285
+precision        0.666285
+recall           1.000000
+f1_score         0.799725
+roc_auc_score    0.499572
+Name: LogisticRegression, dtype: float64
+
+Combined Evaluation Metrics Table:
+|                        |   accuracy |   precision |   recall |   f1_score |   roc_auc_score |
+|:-----------------------|-----------:|------------:|---------:|-----------:|----------------:|
+| RandomForestClassifier |   0.664387 |    0.664387 |        1 |   0.798356 |        0.499577 |
+| SVC                    |   0.652859 |    0.652859 |        1 |   0.789975 |        0.494036 |
+| LogisticRegression     |   0.666285 |    0.666285 |        1 |   0.799725 |        0.499572 |
+
+Comparison and verdict completed. Best model identified and saved.
