@@ -33,7 +33,6 @@ DDI-Prediction-ML/
 │   ├── drugs.csv               # Drug information dataset
 │   ├── drugbank.xsd            # XML Schema for DrugBank data
 │   ├── drug_property_importances.csv
-│   ├── best_model_info.csv
 │   ├── combined_evaluation_metrics.csv
 │   └── README.md               # Description of datasets and sources
 ├── scripts/                    # Python scripts for pipeline steps
@@ -51,6 +50,11 @@ DDI-Prediction-ML/
 │   ├── drug_property_importance.png
 │   └── (add new visuals here)
 ├── results/                    # Model outputs, logs, saved models
+│   ├── best_model_info.csv
+│   ├── LogisticRegression_model.pkl
+│   ├── RandomForestClassifier_model.pkl
+│   ├── SVC_model.pkl
+│   ├── final.txt       
 ├── LICENSE                     # CC BY 4.0 License file
 ├── README.md                   # This file
 ├── requirements.txt            # Python dependencies
