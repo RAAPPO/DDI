@@ -48,7 +48,7 @@ DDI-Prediction-ML/
 ├── visuals/                    # Plots and images for analysis & presentation
 │   ├── correlation_heatmap.png
 │   ├── drug_property_importance.png
-│   └── (add new visuals here)
+│   └── Radar_Chart_of_Evaluation_Metrics_radar.png
 ├── results/                    # Model outputs, logs, saved models
 │   ├── best_model_info.csv
 │   ├── LogisticRegression_model.pkl
